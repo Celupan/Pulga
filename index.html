@@ -1,71 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Boletín Informativo</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-		/* Estilos para el boletín */
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		.container {
-			width: 600px;
-			margin: 40px auto;
-			padding: 20px;
-			border: 1px solid #ccc;
-			border-radius: 10px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-		}
-		.header {
-			background-color: #f0f0f0;
-			padding: 10px;
-			border-bottom: 1px solid #ccc;
-		}
-		.header h1 {
-			margin: 0;
-		}
-		.content {
-			padding: 20px;
-		}
-		.article {
-			margin-bottom: 20px;
-		}
-		.article h2 {
-			margin-top: 0;
-		}
-		.footer {
-			background-color: #f0f0f0;
-			padding: 10px;
-			border-top: 1px solid #ccc;
-			text-align: center;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Luis Borrero Martín</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3e5f5;
+            color: #4a148c;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #8e24aa;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ab47bc;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 2px solid #4a148c;
+            padding-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-	<div class="container">
-		<div class="header">
-			<h1>Boletín Informativo</h1>
-			<p>Edición del [Fecha]</p>
-		</div>
-		<div class="content">
-			<!-- Artículo 1 -->
-			<div class="article">
-				<h2>Título del artículo 1</h2>
-				<p>Contenido del artículo 1...</p>
-			</div>
-			<!-- Artículo 2 -->
-			<div class="article">
-				<h2>Título del artículo 2</h2>
-				<p>Contenido del artículo 2...</p>
-			</div>
-			<!-- ... -->
-		</div>
-		<div class="footer">
-			<p>Copyright 2024 [Tu nombre]</p>
-		</div>
-	</div>
+    <header>
+        <h1>José Luis Borrero Martín</h1>
+    </header>
+    <nav>
+        <a href="#reflexiones">Reflexiones</a>
+        <a href="#politica">Política</a>
+        <a href="#informatica">Informática</a>
+        <a href="#internet">Internet</a>
+        <a href="#literatura">Literatura</a>
+    </nav>
+    <section id="reflexiones" class="content">
+        <h2>Reflexiones</h2>
+        <p>Aquí compartiré mis pensamientos y reflexiones sobre diversos temas de la vida.</p>
+<p>Lo que tienes, te tiene también a tí.</p>
+    </section>
+    <section id="politica" class="content">
+        <h2>Política</h2>
+        <p>En esta sección discutiré sobre actualidad política y mis opiniones al respecto.</p>
+    </section>
+    <section id="informatica" class="content">
+        <h2>Informática</h2>
+        <p>Artículos y tutoriales sobre informática, programación y tecnología.</p>
+    </section>
+    <section id="internet" class="content">
+        <h2>Internet</h2>
+        <p>Exploraciones y análisis sobre el mundo de Internet y sus tendencias.</p>
+    </section>
+    <section id="literatura" class="content">
+        <h2>Literatura</h2>
+        <p>Mis escritos, reseñas y recomendaciones literarias.</p>
+    </section>
+    <footer>
+        <p>2024 José Luis Borrero Martín. Copyleft.</p>
+    </footer>
 </body>
 </html>
